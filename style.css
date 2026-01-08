@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+ul,li{
+    list-style: none;
+}
+a,span{
+    display: inline-block;
+    text-decoration: none;
+}
+.textCenter{
+    text-align: center;
+}
+.container{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    padding: 12px 16px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #30B868;
+    border: 1px solid #30B868;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .4s;
+    font-size: 16px;
+}
+.btn:hover{
+    color: #30B868;
+    border-color: #30B868;
+    background-color: transparent;
+}
+
+
+
+/* header section */
+
+.headerSection{
+    background-color: #fff;
+    padding: 16px 0;
+}
+.headerSection .menu ul{
+    display: flex;
+    gap: 32px;
+}
+.headerSection .menu ul li a{
+    color: #000;
+    transition: .3s;
+}
+.headerSection .menu ul li a:hover{
+    color: #30B868;
+}
+
+
+/* banner section */
+
+.bannerSection{
+    padding: 200px;
+    background: url(./images/hero-bg.png) no-repeat center center;
+    background-size: cover;
+}
+#circle-style{
+    width: 8px;
+    height: 8px;
+    background-color: #30B868;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+    position: relative;
+    top:-1px;
+}
+#circle-style::before {
+	content: "";
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	background-color: rgba(48, 184, 104, .2);
+    border-radius: 50%;
+    
+}
+.bannerSection h4{
+    color: #30B868;
+    background-color: #fff;
+    display: inline-block;
+    padding: 8px 12px 8px 16px;
+    border-radius: 30px;
+    font-weight: 500;
+    margin-bottom:10px;
+}
+.bannerSection h1{
+    font-size: 72px;
+    color: #fff;
+}
+.bannerSection h2{
+    font-size: 72px;
+    color: #30B868;
+    margin-bottom: 10px;
+}
+.bannerSection p{
+    color: #fff;
+    line-height: 32px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.bannerSection .buttons{
+    justify-content: center;
+    gap: 20px;
+
+}
+.bannerSection .buttons .btn2{
+    border-color: #fff;
+    background-color: transparent;
+    transition: .4s;
+}
+.bannerSection .buttons .btn2:hover{
+    border-color: #30B868;
+}
+
+
+
+
